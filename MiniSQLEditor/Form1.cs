@@ -18,7 +18,7 @@ namespace MiniSQLEditor
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=RehberDB;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"");
         string sorgu;
 
         void Execute()
